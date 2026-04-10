@@ -1,0 +1,113 @@
+label {
+    display: inline-block;
+    width: 90px;
+     margin: 5px;
+     font-size: 15px;
+}
+
+body {
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 150px;
+    animation-name: shrink;  
+    animation-duration: 3s; 
+    
+}
+
+@keyframes shrink {
+    50% {transform: scale(0.5,0.5);}
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:  'Lucida Sans Regular';
+}
+
+.btn:hover {
+    background-color: rgb(13, 60, 51);
+}
+
+.btn:active{
+    background-color: rgb(54, 53, 53);
+}
+
+.remember label {
+    white-space: nowrap;
+}
+
+.input-group {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#email, #password {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 278px;
+}
+
+.btn {
+    width: 300px;
+    border-radius: 20px;
+    
+}
+
+.member {
+    text-align: center;
+}
+
+#checkbox {
+    margin-right: 5px;
+    background-color: black;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.checkbox:hover {
+   cursor: pointer;
+}
+
+.checkbox:active {
+    cursor: pointer;
+    
+}
+
+.link:active {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
